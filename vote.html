@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+ <nav>
+  <a href="index.html"> Make your choise </a>
+</nav>
+     <section>
+     <h2> Please vote!</h2>
+        <label>
+          <input type='radio' name="ring" value="Ring1"> Ring 1
+        </label>
+        <label>
+          <input type='radio' name="ring" value="Ring2"> Ring 2
+        </label>
+        <label>
+          <input type='radio' name="ring" value="Ring3"> Ring 3
+        </label>
+     </section>
+<section>
+        <h2> Client data </h2>
+        <form method="POST"  action="https://formspree.io/mknrnnjn"> 
+        <label> Gender</label>
+             <label>
+                <input type="radio"  name= "gender" value="male"> Male
+             </label>
+             <label>
+               <input type="radio" name="gender" value= "female"> Female
+             </label>
+             <label>
+               <input type="radio" name="gender" value= "other"> Other
+             </label>
+             <br>
+             <label> Name:
+                 <input typy="text"  placeholder="Name" required name=name>
+            <br>
+            <label> Email:
+                 <input type="email" placeholder="Email" required name=email>
+            <br>
+        
+                 <input type= "submit">
+        </form>
+</section>
+ </nav> 
+</body>
+</html>
